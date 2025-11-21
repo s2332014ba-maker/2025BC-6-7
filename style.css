@@ -59,6 +59,7 @@ h3{
 .menu{
     width: calc(50% - 5px);
     margin-top: 0px;
+    background-color: antiquewhite;
     
 }
 .menu p{
