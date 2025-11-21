@@ -1,0 +1,122 @@
+header{
+    background-color: #f7b46b;
+    width: 100%;
+    height: 60%;
+
+}
+
+ul.ddmenu{
+    margin:0px;
+    padding:0px 0px 0px 15px;
+    background-color: #ef866b;
+}
+
+ul.ddmenu li{
+    width:300px;
+    display:inline-block;
+    list-style-type: none;
+    position: relative;
+    
+}
+ul.ddmenu a {
+    background-color: #ef866b; /* メニュー項目の背景色(濃い赤色) */
+    color: black;             /* メニュー項目の文字色(白色) */
+    line-height: 40px;        /* メニュー項目のリンクの高さ(40px) */
+    text-align: center;       /* メインメニューの文字列の配置(中央寄せ) */
+    text-decoration: none;    /* メニュー項目の装飾(下線を消す) */
+    font-weight: bold;        /* 太字にする */
+    display: block;           /* ★4:項目内全域をリンク可能にする */
+}
+ul.ddmenu ul{
+    display: none;
+    margin:0px;
+    padding:0px;
+    position:absolute;
+}
+ul.ddmenu a:hover {
+    background-color: #ffdddd; /* メニュー項目にマウスが載ったときの背景色(淡いピンク) */
+    color: #dd0000;           /* メニュー項目にマウスが載ったときの文字色(濃い赤色) */
+}
+
+ul.ddmenu li:hover ul {
+    display: block;           /* ★5:マウスポインタが載っている項目の内部にあるリストを表示する */
+}
+body{
+background-color: #bcb5b5;
+margin: 0%;
+}
+
+h1{
+    font-size: 70px;
+    color: #800000;
+    margin: 0;
+}
+h3{
+    background-color: yellowgreen;
+    margin: 0%;
+    margin-top: 0px;
+}
+.menu{
+    width: calc(50% - 5px);
+    margin-top: 0px;
+    background-color: lightblue;
+    
+}
+.name{
+    background-color: yellow;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+.menu p{
+    max-width: 100%; 
+    overflow: hidden; 
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    line-height: 1.5; 
+    height: calc(1.5em * 3); 
+    font-size: large;
+}
+.image-container { 
+    height: 450px; 
+    width: 100%; 
+    overflow: hidden;
+    margin-bottom: 10px; 
+}
+
+.image-container img { 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.wrap{
+display:flex;
+flex-wrap:wrap;
+gap: 10px;
+align-items: flex-start;
+}
+.logo{
+    width: 80%;
+    height: 70%;
+    padding: 0;  
+    object-fit: cover;
+}
+.logo img{
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+}
+#access p{
+    background-color: #800000;
+    margin: 0;
+    width: 70%;
+}
+#access img{
+    width: 70%;
+    height: auto;
+    margin-bottom: 0;
+}
+
+.campaign img{
+    width: 90%;
+    height: auto;
+}
